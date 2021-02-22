@@ -2,8 +2,9 @@
   "name": "digitalocean_demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node public/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +12,8 @@
   "dependencies": {
     "@babel/cli": "^7.12.17",
     "@babel/core": "^7.12.17",
-    "@babel/preset-react": "^7.12.13"
+    "@babel/preset-react": "^7.12.13",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }

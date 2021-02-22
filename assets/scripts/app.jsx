@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+
+
 function App() {
     const [count, setCount] = React.useState(0);
 
@@ -11,4 +14,4 @@ function App() {
     );
 }
 ReactDOM.render(React.createElement(App),
-    document.getElementById("app"));
+    document.getElementById("root"));
